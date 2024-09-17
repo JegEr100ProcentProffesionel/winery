@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.REKLAMETOP {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* overskrift og login */
+
+.overskrift {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.login-flex {
+    display: flex;
+}
+
+/* navigation */
+nav {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.seach {
+    display: flex;
+    width: 40%;
+    padding-left: 4%;
+}
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1, 5em;
+}
+
+.seachbar {
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    background-color: hsl(0, 0%, 93%);
+    background-image: url(img/zoom.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25px;
+    padding-left: 30px;
+}
+
+button {
+    height: 30px;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    border-radius: 30px;
+}
+
+button a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    width: 60px;
+}
+
+.h1header {
+    display: flex;
+    flex-direction: row;
+}
+
+.top1 {
+    width: 20%;
+
+}
+
+.top2 {
+    width: 60%;
+}
+
+.top3 {
+    width: 20%;
+}
+
+.basket {
+    max-width: 35px;
+    padding-left: 30px;
+}
+
+.boxshadow {
+    box-shadow: 10px 10px 10px hsl(0, 0%, 80%);
+}
+
+/* main inhold */
+
+.main2 {
+    background-color: hsl(36, 19%, 95%);
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.sjovesager {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.w30 {
+    width: 30%;
+    background-color: hsl(0, 0%, 80%);
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+
+.betaling {
+    background-color: white;
+    z-index: 5;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.produkt {
+    max-width: 50%;
+    align-self: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.øl {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.bestilling {
+    width: 160px;
+    height: 40px;
+    background-color: hsl(166, 92%, 26%);
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+
+}
+
+.amount {
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    border: 3px solid hsl(166, 92%, 26%);
+    border-radius: 15px 0px 0px 15px;
+    padding-top: 2px;
+    font-size: 1.5em;
+}
+
+.buy {
+    width: 70%;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.procent70 {
+    width: 70%;
+    margin-right: 80px;
+}
+
+.pris {
+    align-self: center;
+    margin-left: 50px;
+    font-size: 1, 5em;
+    width: 100px;
+}
+
+.tombox {
+    background-color: hsl(36, 19%, 95%);
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.social {
+    width: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-bottem {
+    display: flex;
+    background-color: hsl(36, 19%, 95%);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.betalings-metoder {
+    width: 35%;
+    padding-top: 40px;
+    margin-left: 100px;
+    padding-right: 40px;
+
+    img {
+        width: 60px;
+    }
+}
+
+.footer-bottem-info {
+    width: 65%;
+    padding-top: 50px;
+    padding-left: 40px;
+}
